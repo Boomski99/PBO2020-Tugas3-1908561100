@@ -1,11 +1,14 @@
 import os
+class user():
+    def __init__(self):
+        self.nama = nama
 
 def masukanNama():
-    nama = input("Masukan Namamu : ")
+    user.nama = input("Masukan Namamu : ")
     
     f = open("NamaStorage.txt","w")
-    f.write(nama)
-    print("Nama : " + nama + ", telah diedit")
+    f.write(user.nama)
+    print("Nama : " + user.nama + ", telah diedit")
     f.close()
 
 def hapusNama():
