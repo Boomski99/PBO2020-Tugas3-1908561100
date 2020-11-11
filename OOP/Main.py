@@ -1,7 +1,7 @@
 from NamaStorage import masukanNama, hapusNama, cetakNama
 
 def mainProgram():
-    print("Selamat datang di Program Daftar Pasien")
+    print("Selamat datang di Program Nama Target")
     print("Menu :\n 1. Ubah Nama\n 2. Cetak Nama\n 3. Hapus Nama \n 4. Quit")
     pil = (int(input("Pil : ")))
 
