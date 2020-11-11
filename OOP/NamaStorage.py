@@ -18,6 +18,10 @@ def hapusNama():
         print("The file does not exist")
 
 def cetakNama():
-    f = open("NamaStorage.txt", "r")
-    for x in f:
-        print(x)
+    try:
+        f = open("NamaStorage.txt", "r")
+        print("Nama : ")
+        for x in f:
+            print(x)
+    except:
+        print("Maaf Nama = Kosong")
